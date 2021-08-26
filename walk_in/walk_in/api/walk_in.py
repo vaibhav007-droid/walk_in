@@ -33,27 +33,27 @@ def walk(applicant_name, email_id, address, source, phone_number, job_title, eme
     job_appl.other = other
     
     job_appl.append('education', {
-        'school_univ': school_univ,
-        'qualification': qualification,
-        'year_of_passing': year_of_passing,
+        school_univ: school_univ,
+        qualification: qualification,
+        year_of_passing: year_of_passing,
     })
     
     job_appl.append('external_work_history', {
-        'company_name': company_name,
-        'designation': designation,
-        'total_experience': total_experience,
+        company_name: company_name,
+        designation: designation,
+        total_experience: total_experience,
     })
     
     job_appl.append('family_reference', {
-        'name1': name1,
-        'address1': address1,
-        'phone1': phone1,
+        name1: name1,
+        address1: address1,
+        phone1: phone1,
     })
     
     job_appl.append('corporate_reference', {
-        'name2': name2,
-        'address2': address2,
-        'phone2': phone2,
+        name2: name2,
+        address2: address2,
+        phone2: phone2,
     })
     
     job_appl.set_missing_values()
